@@ -66,10 +66,60 @@ class Resumeright extends Component {
                             <Projects />
                             <hr style={{borderTop: '3px solid #e22947'}}></hr>
                             <h2>Personal Details</h2>
-                            <PersonalDetails />
+                            <PersonalDetails 
+                                Details="Father Name"
+                                detailans="Pasupathi Ramanathan R"
+                            />
+                            <PersonalDetails 
+                                Details="Mother Name"
+                                detailans="Punithavalli P"
+                            />
+                            <PersonalDetails 
+                                Details="Date of Birth"
+                                detailans="06-08-2000"
+                            />
+                            <PersonalDetails 
+                                Details="Gender"
+                                detailans="Male"
+                            />
+                            <PersonalDetails 
+                                Details="Nationality"
+                                detailans="Indian"
+                            />
+                            <PersonalDetails 
+                                Details="Marital Status"
+                                detailans="Unmarried"
+                            />
+                            <PersonalDetails 
+                                Details="Hobby"
+                                detailans="Self Leaarning"
+                            />
+                            
+                            <hr style={{borderTop: '3px solid #e22947'}}></hr>
             </div>
         )
     }
 }
 
 export default Resumeright;
+
+
+
+
+
+{/* <p style={{fontWeight: 'bold'}}>Father Name:</p>
+                        <p style={{fontWeight: 'bold'}}>Mother Name:</p>
+                        <p style={{fontWeight: 'bold'}}>Date of Birth:</p>
+                        <p style={{fontWeight: 'bold'}}>Gender:</p>
+                        <p style={{fontWeight: 'bold'}}>Nationality:</p>
+                        <p style={{fontWeight: 'bold'}}>Marital Status:</p>
+                        <p style={{fontWeight: 'bold'}}>Hobby:</p>
+                         </Col>
+                           <Col sm={9}>
+                            <p>Pasupathi Ramanathan R</p>
+                            <p>Punithavalli P</p>
+                            <p>06-08-2000</p>
+                            <p>Male</p>
+                            <p>Indian</p>
+                            <p>Unmarried</p>
+                            <p>Self-Learning</p> */}
