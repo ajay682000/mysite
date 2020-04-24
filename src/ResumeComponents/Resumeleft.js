@@ -47,7 +47,7 @@ class Resumeleft extends Component {
                        <h5 style={{fontWeight: 'bold'}}>Website</h5>
                        <p>
                         {/* something.akak.com */}
-                        <a href = "https://ajay682000.github.io/myresume/">https://ajay682000.github.io/myresume/</a>
+                        <a href = "https://ajay682000.github.io/mysite/">https://ajay682000.github.io/mysite/</a>
                        </p>
                        </div>
 

@@ -11,7 +11,7 @@ class Contact extends Component {
         return (
             <div className="contact-body">
                 <Container  className="contact-grid">
-                   <Row> 
+                   <Row className= "justify-content-md-center"> 
                     <Col className="left-side">
                         <img src={Pic}
                         alt="Ajay Krishnan" 
@@ -23,6 +23,8 @@ class Contact extends Component {
                             
                         </p>             
                     </Col>
+                </Row>
+                <Row>
                     <Col className="right-side">
                         <h2 style={{justifyContent:"center", textAlign:"center"}}>Contact</h2>
                         <hr style={{justifyContent:"center", textAlign:"center"}}></hr>
@@ -31,7 +33,7 @@ class Contact extends Component {
 
                        
                         <ListGroup>
-                            <ListGroup.Item variant="dark" style={{fontSize: '20px'}}>
+                            <ListGroup.Item variant="dark" style={{fontSize: '20px', color: '#000000'}}>
                             <i className="fa fa-phone"  aria-hidden="true" />
                                 Contact No: <br></br>
                                 <div style={{paddingLeft: '12px'}}>
@@ -41,7 +43,7 @@ class Contact extends Component {
                                 
                                 </div>
                             </ListGroup.Item>
-                            <ListGroup.Item variant="dark" style={{fontSize: '20px'}}>
+                            <ListGroup.Item variant="dark" style={{fontSize: '20px', color: '#000000'}}>
                             <i className="fa fa-envelope"  aria-hidden="true" />
                                 Email : <br></br>
                                 <div style={{paddingLeft: '12px'}}>
