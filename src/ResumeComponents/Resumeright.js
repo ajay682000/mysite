@@ -18,13 +18,13 @@ class Resumeright extends Component {
                            <Education 
                                 startYear={2003}
                                 endYear = {2004}
-                                schoolName = "Vaima VIdyalaya"
+                                schoolName = "Vaima Vidyalaya"
                                 schoolDesc = "Studied Pre Kindergarten during the academic year 2003 - 2004"
                            />
                            <Education 
                                 startYear={2004}
                                 endYear = {2005}
-                                schoolName = "Kalaivani VIdyalaya"
+                                schoolName = "Kalaivani Vidyalaya"
                                 schoolDesc = "Studied Lower Kindergarten during the academic year 2003 - 2004"
                            />
                            <Education 

@@ -6,13 +6,13 @@ class Project extends Component {
         return (
             <p>
                 <ul>
-                    <li>Developed an app called know 
-                            about yourself app in Android Studio</li>
-                    <li>Developed a whatsapp bot for sending messages automatically using python</li>
-                    <li>Developed Websites using Reactjs but not published</li>
-                    <li>Developed apps for mobiles in React Native</li>
+                    <li>Developed an app called <b>Know 
+                            about yourself</b> app in <b>Android Studio</b></li>
+                    <li>Developed a <b>Whatsapp bot</b> for sending messages automatically using <b>python</b></li>
+                    <li>Developed <b>Websites</b> using <b>Reactjs</b> but not published</li>
+                    <li>Developed <b>apps</b> for mobiles in <b>React Native</b></li>
                 </ul>
-                <p>(All my projects are kept safely in my GitLab and Github private repositories)</p>
+                <p>(<b>All my projects are kept safely in my GitLab and Github private repositories)</b></p>
             </p>     
         )
     }
