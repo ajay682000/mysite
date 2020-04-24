@@ -1,14 +1,18 @@
 import React , {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+import {Row, Col, Container, ListGroup} from 'react-bootstrap';
+
 import Pic from '../Images/ak.jpeg';
 
 class LandingPage extends Component {
     render() {
         return (
             <div className="landing-page">
-               <Grid className="landing-grid">
-                   <Cell col = {12}> 
+               
+               <Container fluid className="landing-grid">
+                   <Row>
+                   <Col sm = {12}> 
                     <img src={Pic}
                     alt="Ajay Krishnan" 
                     className="avathar-img"
@@ -64,8 +68,12 @@ class LandingPage extends Component {
                             
                         </center></p>
                     </div>
-                   </Cell>
-               </Grid>
+                   </Col>
+
+
+                   </Row>
+                   
+               </Container>
             </div>
         )
     }

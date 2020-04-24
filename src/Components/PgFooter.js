@@ -36,20 +36,21 @@ class PgFooter extends Component {
                     <br></br>
                     Build By Ajay Krishnan
                     <br></br>
+                    ------Contact me on------ <br></br>
                     <div className="social-links">
                         
                         {/* LinkedIn */}
                         <a href="https://www.linkedin.com/in/ajay-krishnan-7a8633b1/" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-linkedin"  aria-hidden="true" />
                         </a>
-                        {/* Github */}
+                        {/*  // Github 
                         <a href="https://github.com/ajay682000" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-github"  aria-hidden="true" />
                         </a>
-                        {/* GitLab */}
+                        // GitLab  
                         <a href="https://gitlab.com/ajay_682000" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-gitlab"  aria-hidden="true" />
-                        </a>
+                            <i className="fa fa-gitlab"  aria-hidden="true" /> 
+                        </a> */}
                         {/* Facebook */}
                         <a href="https://www.facebook.com/ajay.pasupathiramanathan" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-facebook"  aria-hidden="true" />

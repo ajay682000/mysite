@@ -3,16 +3,20 @@ import React , {Component} from 'react';
 import {ListGroup, Container, Row, Col} from 'react-bootstrap';
 // import {List, ListItem} from 'react-mdl';
 
-
+import Contactno from '../ContactComponents/Contactno';
+import ContactEmail from '../ContactComponents/ContactEmail';
 import Pic from '../Images/ak.jpeg';
 
 class Contact extends Component {
     render() {
         return (
             <div className="contact-body">
-                <Container  className="contact-grid">
+                <Container fluid>
+                    <Row>
+                        <Col sm={12}>
+                        <Container  className="contact-grid">
                    <Row className= "justify-content-md-center"> 
-                    <Col className="left-side">
+                    <Col sm={6} className="left-side">
                         <img src={Pic}
                         alt="Ajay Krishnan" 
                         className="avathar-img"
@@ -23,9 +27,8 @@ class Contact extends Component {
                             
                         </p>             
                     </Col>
-                </Row>
-                <Row>
-                    <Col className="right-side">
+                
+                    <Col sm={6} className="right-side">
                         <h2 style={{justifyContent:"center", textAlign:"center"}}>Contact</h2>
                         <hr style={{justifyContent:"center", textAlign:"center"}}></hr>
                         <br></br>
@@ -34,22 +37,23 @@ class Contact extends Component {
                        
                         <ListGroup>
                             <ListGroup.Item variant="dark" style={{fontSize: '20px', color: '#000000'}}>
-                            <i className="fa fa-phone"  aria-hidden="true" />
-                                Contact No: <br></br>
-                                <div style={{paddingLeft: '12px'}}>
-                                +918489154492 <br></br>+917010668291
+                           
                                 
-                                {/* +919876543210 <br></br>+919632587410 */}
+                                <Contactno 
+                                    Contact="Contact No:"
+                                    no1="+918489154492"
+                                    no2="+917010668291"
+                                />
                                 
-                                </div>
+                                
                             </ListGroup.Item>
                             <ListGroup.Item variant="dark" style={{fontSize: '20px', color: '#000000'}}>
-                            <i className="fa fa-envelope"  aria-hidden="true" />
-                                Email : <br></br>
-                                <div style={{paddingLeft: '12px'}}>
-                                    ajaykrishnan682000.ak@gmail.com
-                                    {/* ethoorucompany@anthacompany.com */}
-                                </div>
+                            
+                            <ContactEmail 
+                                    Email="Email:"
+                                    email="ajaykrishnan682000.ak @gmail.com"
+                                    
+                                />
                             </ListGroup.Item>
                             {/* <ListGroup.Item variant="dark">Morbi leo risus</ListGroup.Item>
                             <ListGroup.Item variant="dark">Porta ac consectetur ac</ListGroup.Item>
@@ -59,6 +63,10 @@ class Contact extends Component {
                     </Col>
                     </Row>
                 </Container>
+                        </Col>
+                    </Row>
+                </Container>
+                
                 
             </div>
         )
