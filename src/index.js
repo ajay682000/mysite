@@ -8,9 +8,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {HashRouter as Router}  from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <Router basename='/'>
+    
     <App />
     </Router>
     

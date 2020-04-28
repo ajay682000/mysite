@@ -63,6 +63,10 @@ class PgFooter extends Component {
                         <a href="https://api.whatsapp.com/send?phone=+918489154492" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-whatsapp"  aria-hidden="true" />
                         </a>
+                        {/* Twitter */}
+                        <a href="https://twitter.com/ajay_682000" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-twitter"  aria-hidden="true" />
+                        </a>
                         
                         
                     </div>
