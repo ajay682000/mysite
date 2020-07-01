@@ -57,11 +57,11 @@ class ProgressSkills extends Component {
                             />
                             <Skills 
                                 skill="Django"
-                                progress={0}
+                                progress={5}
                             />
                             <Skills 
                                 skill="Photoshop"
-                                progress={18}
+                                progress={20}
                             />
                             <Skills 
                                 skill="Video Editing"

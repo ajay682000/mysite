@@ -17,7 +17,9 @@ class Resumeleft extends Component {
                        <h5 style={{color:'grey'}}>Engineering Student</h5>
                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                        <p>
-                       Enna pathi naane perumaiya solla onnum illa. Enna pathi ethavathu therinja sollunga. Neenga solluratha vachu inga eluthuren. Matha padi perusa solra alavuku nan worth illa. I am a comedy piece uhh
+                       An aspiring Enginnering Student who eager to learn many things.<br></br>
+                       Interested in learning more stuffs in Artificial Intelligenge, Machine Learning and Data Science.
+                       {/* Enna pathi naane perumaiya solla onnum illa. Enna pathi ethavathu therinja sollunga. Neenga solluratha vachu inga eluthuren. Matha padi perusa solra alavuku nan worth illa. I am a comedy piece uhh */}
                        </p>
                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                        <h5 style={{fontWeight: 'bold'}}>Address</h5>

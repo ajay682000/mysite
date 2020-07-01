@@ -23,7 +23,8 @@ class Contact extends Component {
                         />         
                         <h2>Ajay Krishnan</h2>  
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                            Enna pathi naane perumaiya solla onnum illa. Enna pathi ethavathu therinja sollunga. Neenga solluratha vachu inga eluthuren. Matha padi perusa solra alavuku nan worth illa. I am a comedy piece uhh
+                            {/* Enna pathi naane perumaiya solla onnum illa. Enna pathi ethavathu therinja sollunga. Neenga solluratha vachu inga eluthuren. Matha padi perusa solra alavuku nan worth illa. I am a comedy piece uhh */}
+                            An aspiring Enginnering Student who eager to learn many things.
                             
                         </p>             
                     </Col>

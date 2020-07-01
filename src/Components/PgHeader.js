@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 class PgHeader extends Component {
     render() {
         return (
-            <div>
+            <div >
                 {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark"> */}
                 <Navbar className="header-color" collapseOnSelect expand="lg" bg="dark" variant="dark" >  
                     {/* <Navbar.Brand>
