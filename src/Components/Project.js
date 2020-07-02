@@ -7,6 +7,7 @@ import SpeechRecognition from '../ProjectComponents/SpeechRecognition';
 import FaceReco from '../ProjectComponents/FaceReco';
 import FaceEmotion from '../ProjectComponents/FaceEmotion';
 import FingerSign from '../ProjectComponents/FingerSign';
+import KnowYourself from '../ProjectComponents/KnowYourself'
 
 import Con2 from '../Images/Con2.png';
 import {Image, Accordion, Card, Container, Row, Col} from 'react-bootstrap'
@@ -77,6 +78,14 @@ class Project extends Component {
                                     </Accordion.Toggle>
                                     <Accordion.Collapse eventKey="6">
                                     <Card.Body><FingerSign /></Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="7">
+                                    <center>Know About Yourself App</center>
+                                    </Accordion.Toggle>
+                                    <Accordion.Collapse eventKey="7">
+                                    <Card.Body><KnowYourself /></Card.Body>
                                     </Accordion.Collapse>
                                 </Card>
                                 </Accordion>
