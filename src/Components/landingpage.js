@@ -68,6 +68,12 @@ class LandingPage extends Component {
                             <i className="fa fa-whatsapp"  aria-hidden="true" />
                         </a>
                         </OverlayTrigger>
+                        {/* Telegram */}
+                        <OverlayTrigger overlay={<Tooltip id="button-tooltip">Telegram</Tooltip>} placement='bottom'>
+                        <a href="https://t.me/ajay_682000" rel="noopener noreferrer" target="_blank">
+                            <i className="fab fa-telegram-plane"  aria-hidden="true" />
+                        </a>
+                        </OverlayTrigger>
                         {/* Twitter */}
                         <OverlayTrigger overlay={<Tooltip id="button-tooltip">Twitter</Tooltip>} placement='bottom'>
                         <a href="https://twitter.com/ajay_682000" rel="noopener noreferrer" target="_blank">

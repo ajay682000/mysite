@@ -12,7 +12,7 @@ class Aboutmeleft extends Component {
 
                    <h5 style={{color:'grey', fontWeight:'bold'}}>Email</h5>
                        <hr style={{borderTop: '3px solid #cf4452', width: '30%'}}></hr>
-                <p>ajaykrishnan682000.ak@gmail.com <br></br></p>
+                <p>ajaykrishnan682000.ak @gmail.com <br></br></p>
 
                <h5 style={{color:'grey', fontWeight:'bold'}}>Phone</h5>
                        <hr style={{borderTop: '3px solid #cf4452', width: '30%'}}></hr>
