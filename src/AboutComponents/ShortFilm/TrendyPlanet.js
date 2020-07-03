@@ -25,7 +25,7 @@ class TrendyPlanet extends Component {
                     <div>
                     <a href="https://www.instagram.com/trendyplanetproductions/" rel="noopener noreferrer" target="_blank">
                     <Button variant="" className="trendyplanetbutton">
-                            <i className="fa fa-instagram" style={{fontSize:"2em"}} aria-hidden="true" /> Click here to see <br></br>Our Instagram Page
+                            <i className="fa fa-instagram" style={{fontSize:"1em"}} aria-hidden="true"> Click here to see <br></br>Our Instagram Page</i> 
                             </Button>
                         </a>
                     </div>
