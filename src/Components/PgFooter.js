@@ -36,17 +36,18 @@ class PgFooter extends Component {
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/mysite" rel="noopener noreferrer" target="_blank">
-                    <Button variant="dark" style={{background:"#2e2f30", color:"#ffffff"}}>
-                            <i className="fa fa-github-square" style={{fontSize:"2em"}} aria-hidden="true" /> Source Code of this Website
+                    <Button variant="" style={{background:"transparent", color:"#ffffff"}}>
+                            <i className="fa fa-github-square" style={{color: "black",fontSize:"2em"}} aria-hidden="true" /> Source Code of this Website
                             </Button>
                         </a>
                        </div> 
-                    {/* <i className="fa fa-react" aria-hidden="true" /> */}
-                    Build using React js
+                    
+                    Made with React
+                    <i className="fab fa-react" aria-hidden="true" /> 
                     <br></br>
-                    Build By Ajay Krishnan
+                    Developed by Ajay Krishnan
                     <br></br>
-                    ------Contact me on------ <br></br>
+                    Follow me on <br></br>
                     <div className="social-links">
                         
                         

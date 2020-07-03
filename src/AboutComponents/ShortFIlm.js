@@ -1,7 +1,9 @@
 import React,{Component} from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Col2 from './ShortFilm/Col2';
-import Col3 from './ShortFilm/Col3';
+
+import TrendyPlanet from './ShortFilm/TrendyPlanet';
+import AatkalThevai from './ShortFilm/AatkalThevai';
+import Stolen from './ShortFilm/Stolen';
 
 
 
@@ -9,24 +11,30 @@ class ShortFilm extends Component {
     render() {
         return (
             <div style={{padding: '20px'}}>
-                <Container>
+                <Container fluid>
                     <Row>
                         <Col>
-                            <h5>Trendy Planet Production</h5>
+                            <TrendyPlanet />
                         </Col>
                     </Row>
                     <hr style={{borderTop: '3px solid #833fb2'}}></hr>
                     <Row>
                         <Col>
-                        <h5> First Short Film</h5>
-                        <Col2 />
+                        
+                        <AatkalThevai />
                         </Col>
                     </Row>
                     <hr style={{borderTop: '3px solid #833fb2'}}></hr>
                     <Row>
                         <Col>
-                        <h5>Second Short film</h5>
-                        <Col3 />
+                        
+                        <Stolen />
+                        </Col>
+                    </Row>
+                    <hr style={{borderTop: '3px solid #833fb2'}}></hr>
+                    <Row>
+                        <Col>
+                            <center><b>(OTHER SHORT FILMS COMING SOON....)</b></center>
                         </Col>
                     </Row>
                     <hr style={{borderTop: '3px solid #833fb2'}}></hr>

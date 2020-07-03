@@ -27,10 +27,10 @@ import Aboutme from '../AboutComponents/Aboutme';
                 onSelect={(k) => setKey(k)}
                 className="category-tabs"
                 >
-                    <Tab eventKey="Tab1" title="About Me"><Aboutme /></Tab>
+                    <Tab eventKey="Tab1" title="Personal Info"><Aboutme /></Tab>
                     {/* <Tab eventKey="Tab2" title="Education"><Education /></Tab> */}
                     {/* <Tab eventKey='Tab3' title="Sports" ><Sports /></Tab> */}
-                    {/* <Tab eventKey='Tab4' title="Short Films"><ShortFilm /></Tab> */}
+                    <Tab eventKey='Tab4' title="Short Films"><ShortFilm /></Tab>
                     {/* <Tab eventKey='Tab5' title="Tab 5" disabled>Tab4</Tab> */}
                 </Tabs>
                

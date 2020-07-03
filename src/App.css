@@ -227,6 +227,10 @@
   color: #ffffff;
 }
 
+.trendyplanetbutton:hover {
+  color: #ffffff;
+}
+
 
 /* Project */
 .project-grid {
@@ -288,6 +292,10 @@
   color: #00acee ;
 }
 
+.fa-react {
+  color: #61DBFB;
+  padding: 5px;
+}
 
 .construction {
   
@@ -305,7 +313,20 @@
 
 
 /* footer */
+@media (prefers-reduced-motion: no-preference) {
+  .fa-react {
+    animation: fa-react-spin infinite 7s linear;
+  }
+}
 
+@keyframes fa-react-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 
 
