@@ -7,7 +7,9 @@ import SpeechRecognition from '../ProjectComponents/SpeechRecognition';
 import FaceReco from '../ProjectComponents/FaceReco';
 import FaceEmotion from '../ProjectComponents/FaceEmotion';
 import FingerSign from '../ProjectComponents/FingerSign';
-import KnowYourself from '../ProjectComponents/KnowYourself'
+import KnowYourself from '../ProjectComponents/KnowYourself';
+import CoronaVirus from '../ProjectComponents/CoronaVIrus';
+import VirtualPen from '../ProjectComponents/VirtualPen';
 
 import Con2 from '../Images/Con2.png';
 import {Image, Accordion, Card, Container, Row, Col} from 'react-bootstrap'
@@ -86,6 +88,22 @@ class Project extends Component {
                                     </Accordion.Toggle>
                                     <Accordion.Collapse eventKey="7">
                                     <Card.Body><KnowYourself /></Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="8">
+                                    <center>Corona Virus Recognition</center>
+                                    </Accordion.Toggle>
+                                    <Accordion.Collapse eventKey="8">
+                                    <Card.Body><CoronaVirus /></Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="9">
+                                    <center>Virtual Pen</center>
+                                    </Accordion.Toggle>
+                                    <Accordion.Collapse eventKey="9">
+                                    <Card.Body><VirtualPen /></Card.Body>
                                     </Accordion.Collapse>
                                 </Card>
                                 </Accordion>

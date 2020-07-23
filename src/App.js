@@ -37,9 +37,12 @@ class App extends Component {
                   </Navigation>
               </Drawer> */}
               <Content>
+              
                 <div className="page-content"></div>
                 
-                <Main /><PgFooter />
+                <Main />
+                
+                <PgFooter />
                 
               </Content>
               
