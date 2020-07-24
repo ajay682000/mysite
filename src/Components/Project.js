@@ -10,6 +10,7 @@ import FingerSign from '../ProjectComponents/FingerSign';
 import KnowYourself from '../ProjectComponents/KnowYourself';
 import CoronaVirus from '../ProjectComponents/CoronaVIrus';
 import VirtualPen from '../ProjectComponents/VirtualPen';
+import InvisibleCloth from '../ProjectComponents/InvisibleCloth';
 
 import Con2 from '../Images/Con2.png';
 import {Image, Accordion, Card, Container, Row, Col} from 'react-bootstrap'
@@ -104,6 +105,14 @@ class Project extends Component {
                                     </Accordion.Toggle>
                                     <Accordion.Collapse eventKey="9">
                                     <Card.Body><VirtualPen /></Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="10">
+                                    <center>InvisibleCloth</center>
+                                    </Accordion.Toggle>
+                                    <Accordion.Collapse eventKey="10">
+                                    <Card.Body><InvisibleCloth /></Card.Body>
                                     </Accordion.Collapse>
                                 </Card>
                                 </Accordion>
