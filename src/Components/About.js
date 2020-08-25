@@ -3,7 +3,7 @@ import '../App.css';
 // import {Tabs, Tab} from 'react-mdl';
 import {Tabs, Tab} from 'react-bootstrap';
 import Con1 from '../Images/con1.jpeg';
-import Education from '../AboutComponents/Education';
+import Poems from '../AboutComponents/Poems';
 import Sports from '../AboutComponents/Sports';
 import ShortFilm from '../AboutComponents/ShortFIlm';
 import Aboutme from '../AboutComponents/Aboutme';
@@ -25,12 +25,12 @@ import Aboutme from '../AboutComponents/Aboutme';
                 // activeKey={key} 0
                 id="controlled-tab-example"
                 onSelect={(k) => setKey(k)}
-                className="category-tabs"
+                // className="category-tabs"
                 >
                     <Tab eventKey="Tab1" title="Personal Info"><Aboutme /></Tab>
-                    {/* <Tab eventKey="Tab2" title="Education"><Education /></Tab> */}
-                    {/* <Tab eventKey='Tab3' title="Sports" ><Sports /></Tab> */}
-                    <Tab eventKey='Tab4' title="Short Films"><ShortFilm /></Tab>
+                    <Tab eventKey='Tab2' title="Short Films"><ShortFilm /></Tab>
+                    <Tab eventKey="Tab3" title="Poems | கவிதை"><Poems /></Tab>
+                    {/* <Tab eventKey='Tab4' title="Sports" ><Sports /></Tab> */}
                     {/* <Tab eventKey='Tab5' title="Tab 5" disabled>Tab4</Tab> */}
                 </Tabs>
                
