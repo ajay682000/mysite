@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/mysite/static/css/main.e20bab6d.chunk.css",
-    "main.js": "/mysite/static/js/main.09c4d9a2.chunk.js",
-    "main.js.map": "/mysite/static/js/main.09c4d9a2.chunk.js.map",
+    "main.css": "/mysite/static/css/main.913044b1.chunk.css",
+    "main.js": "/mysite/static/js/main.d326cb64.chunk.js",
+    "main.js.map": "/mysite/static/js/main.d326cb64.chunk.js.map",
     "runtime-main.js": "/mysite/static/js/runtime-main.1bb1ecc6.js",
     "runtime-main.js.map": "/mysite/static/js/runtime-main.1bb1ecc6.js.map",
-    "static/css/2.053bdb2e.chunk.css": "/mysite/static/css/2.053bdb2e.chunk.css",
-    "static/js/2.f09b40f7.chunk.js": "/mysite/static/js/2.f09b40f7.chunk.js",
-    "static/js/2.f09b40f7.chunk.js.map": "/mysite/static/js/2.f09b40f7.chunk.js.map",
+    "static/css/2.24b8f110.chunk.css": "/mysite/static/css/2.24b8f110.chunk.css",
+    "static/js/2.ad7c43f1.chunk.js": "/mysite/static/js/2.ad7c43f1.chunk.js",
+    "static/js/2.ad7c43f1.chunk.js.map": "/mysite/static/js/2.ad7c43f1.chunk.js.map",
     "index.html": "/mysite/index.html",
-    "precache-manifest.a3e19e085476057a071d6c343a69ebde.js": "/mysite/precache-manifest.a3e19e085476057a071d6c343a69ebde.js",
+    "precache-manifest.6d11988974b8bd8f0dca2b7a6c81ed02.js": "/mysite/precache-manifest.6d11988974b8bd8f0dca2b7a6c81ed02.js",
     "service-worker.js": "/mysite/service-worker.js",
-    "static/css/2.053bdb2e.chunk.css.map": "/mysite/static/css/2.053bdb2e.chunk.css.map",
-    "static/css/main.e20bab6d.chunk.css.map": "/mysite/static/css/main.e20bab6d.chunk.css.map",
-    "static/js/2.f09b40f7.chunk.js.LICENSE.txt": "/mysite/static/js/2.f09b40f7.chunk.js.LICENSE.txt",
+    "static/css/2.24b8f110.chunk.css.map": "/mysite/static/css/2.24b8f110.chunk.css.map",
+    "static/css/main.913044b1.chunk.css.map": "/mysite/static/css/main.913044b1.chunk.css.map",
+    "static/js/2.ad7c43f1.chunk.js.LICENSE.txt": "/mysite/static/js/2.ad7c43f1.chunk.js.LICENSE.txt",
     "static/media/Con2.png": "/mysite/static/media/Con2.6d425491.png",
     "static/media/TrendyPlanet.jpg": "/mysite/static/media/TrendyPlanet.606ef9b4.jpg",
     "static/media/ajay.jpeg": "/mysite/static/media/ajay.7ca7887f.jpeg",
     "static/media/ak.jpeg": "/mysite/static/media/ak.4b638caa.jpeg",
-    "static/media/con1.jpeg": "/mysite/static/media/con1.ac18cc7b.jpeg"
+    "static/media/con1.jpeg": "/mysite/static/media/con1.ac18cc7b.jpeg",
+    "static/media/App.css": "/mysite/static/media/icons-20.cef8cdbb.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.1bb1ecc6.js",
-    "static/css/2.053bdb2e.chunk.css",
-    "static/js/2.f09b40f7.chunk.js",
-    "static/css/main.e20bab6d.chunk.css",
-    "static/js/main.09c4d9a2.chunk.js"
+    "static/css/2.24b8f110.chunk.css",
+    "static/js/2.ad7c43f1.chunk.js",
+    "static/css/main.913044b1.chunk.css",
+    "static/js/main.d326cb64.chunk.js"
   ]
 }
