@@ -4,7 +4,7 @@ import '../App.css';
 import {Tabs, Tab} from 'react-bootstrap';
 import Con1 from '../Images/con1.jpeg';
 import Poems from '../AboutComponents/Poems';
-import Sports from '../AboutComponents/Sports';
+import Story from '../AboutComponents/Story';
 import ShortFilm from '../AboutComponents/ShortFIlm';
 import Aboutme from '../AboutComponents/Aboutme';
 

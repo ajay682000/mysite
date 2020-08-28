@@ -19,7 +19,7 @@ class TrendyPlanet extends Component {
                 <Media.Body>
                     <h5>Trendy Planet Production</h5>
                     <p>
-                    Trendy Planet Production is out Youtube channel where we host out Short films and Short videos.
+                    Trendy Planet Production is our Youtube channel where we host our Short films and Short videos.
                     Till now we have launched two short films and more short films are yet to come.
                     </p>
                     <div>

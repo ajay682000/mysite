@@ -7,6 +7,9 @@ import Poem4 from './PoemsListTamil/Poem4'
 import Poem5 from './PoemsListTamil/Poem5'
 import Poem6 from './PoemsListTamil/Poem6'
 import Poem7 from './PoemsListTamil/Poem7'
+import Poem8 from './PoemsListTamil/Poem8'
+import Poem9 from './PoemsListTamil/Poem9'
+import Poem10 from './PoemsListTamil/Poem10'
 class TamilKavithai extends Component {
     render() {
         return(
@@ -67,6 +70,31 @@ class TamilKavithai extends Component {
                     </center>  
                 </Card>
                 </div>
+                <div className="bp3-card .bp3-interactive">
+                <Card interactive={true} elevation={Elevation.TWO}>
+                    <center>
+                    <h5><b>சகோதரி</b></h5>
+                    <p><Poem8 /></p>
+                    </center>  
+                </Card>
+                </div>
+                <div className="bp3-card .bp3-interactive">
+                <Card interactive={true} elevation={Elevation.TWO}>
+                    <center>
+                    <h5><b>நட்பு</b></h5>
+                    <p><Poem9 /></p>
+                    </center>  
+                </Card>
+                </div>
+                <div className="bp3-card .bp3-interactive">
+                <Card interactive={true} elevation={Elevation.TWO}>
+                    <center>
+                    <h5><b>உன்னை நீ அறிந்தால்</b></h5>
+                    <p><Poem10 /></p>
+                    </center>  
+                </Card>
+                </div>
+                
                 
             </div>
         )
