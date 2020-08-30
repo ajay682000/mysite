@@ -1,19 +1,18 @@
 import React, {Component} from 'react';
 
-
-import {Card, Button} from 'react-bootstrap';
+import { Card, Elevation } from "@blueprintjs/core";
+import { Button} from 'react-bootstrap';
 
 class SpeechRecognition extends Component{
     render(){
         return(
-            <div>
-               <Card className="text-center">
-               {/* <Card.Header>Computer Vision</Card.Header> */}
-                <Card.Body>
-                    <Card.Title>Detecting Human Face in Python</Card.Title>
-                    <Card.Text>
-                    <b>speech_recognition</b> library is used for recognizing speech. <br></br><b>Text to speech and spech to text</b>
-                    </Card.Text>
+            <div className="bp3-card .bp3-interactive">
+               <Card interactive={true} elevation={Elevation.TWO}>
+               <center>
+                   <h6>Speech Recognition in Python</h6>
+                        Recognize the human voice that said in english and convert to text. 
+                        
+               
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/SpeechRecognition" rel="noopener noreferrer" target="_blank">
@@ -25,8 +24,8 @@ class SpeechRecognition extends Component{
                     </div>
                     
                     
-                    
-                </Card.Body>
+                    </center>
+                
                 </Card>
             </div>
         )

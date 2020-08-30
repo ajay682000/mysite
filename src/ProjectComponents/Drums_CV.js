@@ -1,20 +1,21 @@
 import React, {Component} from 'react';
 
 
-import {Card, Button} from 'react-bootstrap';
+import { Card, Elevation } from "@blueprintjs/core";
+import { Button} from 'react-bootstrap';
 
 class Drums_CV extends Component{
     render(){
         return(
-            <div>
-               <Card className="text-center">
-               {/* <Card.Header>Face Recognition</Card.Header> */}
-                <Card.Body>
-                    <Card.Title>Virtual Drum Machine</Card.Title>
-                    <Card.Text>
+            <div className="bp3-card .bp3-interactive">
+                
+               <Card interactive={true} elevation={Elevation.TWO}>
+                   <center>
+                    <h6>Virtual Drum Machine</h6>
+                    
                     Used openCV and Selenium. This detects the colour of a object and with that color if we move over the text different sounds are produced. 
-                    The sound is getting fromm the website <a href="https://www.onemotion.com/drum-machine/">One Motion</a>
-                    </Card.Text>
+                    The sound is getting from the website <a href="https://www.onemotion.com/drum-machine/">One Motion</a>
+                    
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/Drums_ComputerVision" rel="noopener noreferrer" target="_blank">
@@ -26,8 +27,8 @@ class Drums_CV extends Component{
                     </div>
                     
                     
-                    
-                </Card.Body>
+                    </center>
+                
                 </Card>
             </div>
         )

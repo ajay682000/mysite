@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
 
 
-import {Card, Button} from 'react-bootstrap';
+import { Card, Elevation } from "@blueprintjs/core";
+import { Button} from 'react-bootstrap';
+
 
 class FingerSign extends Component{
     render(){
         return(
-            <div>
-               <Card className="text-center">
-               {/* <Card.Header>Face Recognition</Card.Header> */}
-                <Card.Body>
-                    <Card.Title>Finger Sign Detection in Python</Card.Title>
-                    <Card.Text>
-                        In this the Finger Signs like <b>None, One, Two, Three, Four, Five</b> are detected.
-                    </Card.Text>
+            <div className="bp3-card .bp3-interactive">
+                
+            <Card interactive={true} elevation={Elevation.TWO}>
+                <center>
+                    <h6>Finger Sign Detection in Python</h6>
+                      The datasets for the finger sign are prepared, trained and then the Finger Sign Numbers that is <b>None, One, Two, Three, Four, Five</b> are detected.
+                    
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/FingerSignGesture" rel="noopener noreferrer" target="_blank">
@@ -31,9 +32,9 @@ class FingerSign extends Component{
                         
                     </div>
                     
+                    </center>
                     
-                    
-                </Card.Body>
+                
                 </Card>
             </div>
         )

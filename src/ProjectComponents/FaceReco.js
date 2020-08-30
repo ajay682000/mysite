@@ -1,19 +1,19 @@
 import React, {Component} from 'react';
 
-
-import {Card, Button} from 'react-bootstrap';
+import { Card, Elevation } from "@blueprintjs/core";
+import {Button} from 'react-bootstrap';
 
 class FaceReco extends Component{
     render(){
         return(
-            <div>
-               <Card className="text-center">
-               {/* <Card.Header>Face Recognition</Card.Header> */}
-                <Card.Body>
-                    <Card.Title>Face Recognition system in Python</Card.Title>
-                    <Card.Text>
-                    In this project your own face is captured, trained to the machine and your face will be identified by machine
-                    </Card.Text>
+            <div className="bp3-card .bp3-interactive">
+                
+               <Card interactive={true} elevation={Elevation.TWO}>
+              <center>
+                    <h6>Face Recognition system in Python</h6>
+                    
+                    The face is captured and stored and then trained using <b>LBPH method</b> and then the face is detected
+                    
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/FaceRecognitionandDetection" rel="noopener noreferrer" target="_blank">
@@ -24,9 +24,9 @@ class FaceReco extends Component{
                         
                     </div>
                     
+                    </center>
                     
-                    
-                </Card.Body>
+               
                 </Card>
             </div>
         )

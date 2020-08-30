@@ -1,20 +1,21 @@
 import React, {Component} from 'react';
 
 
-import {Card, Button} from 'react-bootstrap';
+import { Card, Elevation } from "@blueprintjs/core";
+import { Button} from 'react-bootstrap';
+
 
 class CoronaVirus extends Component{
     render(){
         return(
-            <div>
-               <Card className="text-center">
-               {/* <Card.Header>Face Recognition</Card.Header> */}
-                <Card.Body>
-                    <Card.Title>Corona Virus Recognition using Chest X-Ray Images</Card.Title>
-                    <Card.Text>
-                       Its just a simple Data Science Project which to recognize the corona vius using chest x ray images
-                    </Card.Text>
+            <div className="bp3-card .bp3-interactive">
+                
+               <Card interactive={true} elevation={Elevation.TWO}>
+                   <center>
+                    <h6>Corona Virus Recognition using Chest X-Ray Images</h6>
                     
+                       Its just a simple Data Science Project which to recognize the corona vius using chest x ray images
+                
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/Corona-Virus-Rocognition-Chest-X-Ray" rel="noopener noreferrer" target="_blank">
                     <Button variant="light">
@@ -31,9 +32,9 @@ class CoronaVirus extends Component{
                         
                     </div>
                     
+                    </center>
                     
-                    
-                </Card.Body>
+               
                 </Card>
             </div>
         )

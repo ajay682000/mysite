@@ -1,19 +1,21 @@
 import React, {Component} from 'react';
 
 
-import {Card, Button} from 'react-bootstrap';
+import { Card, Elevation } from "@blueprintjs/core";
+import { Button} from 'react-bootstrap';
+
 
 class FaceEmotion extends Component{
     render(){
         return(
-            <div>
-               <Card className="text-center">
-               {/* <Card.Header>Face Recognition</Card.Header> */}
-                <Card.Body>
-                    <Card.Title>Face Emotion Detection in Python</Card.Title>
-                    <Card.Text>
-                        In this the Face Emotions like <b>Angry, Happy, Neutral, Sad and Surprise</b> are detected.
-                    </Card.Text>
+            <div className="bp3-card .bp3-interactive">
+                
+            <Card interactive={true} elevation={Elevation.TWO}>
+                <center>
+                    <h6>Face Emotion Detection in Python</h6>
+                
+                        The datasets were prepared, trained and then the Face Emotions like <b>Angry, Happy, Neutral, Sad and Surprise</b> are detected.
+                    
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/FaceEmotion" rel="noopener noreferrer" target="_blank">
@@ -32,8 +34,9 @@ class FaceEmotion extends Component{
                     </div>
                     
                     
+                    </center>
                     
-                </Card.Body>
+               
                 </Card>
             </div>
         )

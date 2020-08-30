@@ -7,6 +7,7 @@ import About from './AboutRedesign';
 
 import Resume from './resume';
 import Project from './Project';
+import Project1 from './Projectnewdesign';
 
 
 const Main = () => { 
@@ -15,7 +16,7 @@ const Main = () => {
             <Route exact path = "/" component = {LandingPage} />
             <Route path = "/about" component = {About} />
             <Route path = "/contact" component = {Contact} />
-            <Route path = "/projects" component = {Project} />
+            <Route path = "/projects" component = {Project1} />
             <Route path = "/resume" component = {Resume} />
         </Switch>
     )

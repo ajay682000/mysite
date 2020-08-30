@@ -1,19 +1,17 @@
 import React, {Component} from 'react';
+import { Card, Elevation } from "@blueprintjs/core";
 
-
-import {Card, Button} from 'react-bootstrap';
+import { Button} from 'react-bootstrap';
 
 class FaceDetection extends Component{
     render(){
         return(
-            <div>
-               <Card className="text-center">
-               {/* <Card.Header>Computer Vision</Card.Header> */}
-                <Card.Body>
-                    <Card.Title>Detecting Human Face in Python</Card.Title>
-                    <Card.Text>
-                    <b>OpenCV</b> library is used for detecting. <b>Harcascade Classifiers for face</b> have been used for detecting. 
-                    </Card.Text>
+            <div className="bp3-card .bp3-interactive">
+               <Card interactive={true} elevation={Elevation.TWO}>
+               <center>
+               <h6>Face Detection in Python</h6>
+                    Real time Human Face Detection. <b>Haarcascade Classifier of frontalface detection</b> is used to detect the human face.
+                    
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/FaceDetection" rel="noopener noreferrer" target="_blank">
@@ -24,9 +22,9 @@ class FaceDetection extends Component{
                         
                     </div>
                     
+                    </center>
                     
-                    
-                </Card.Body>
+               
                 </Card>
             </div>
         )

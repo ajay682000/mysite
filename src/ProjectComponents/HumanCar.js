@@ -1,19 +1,18 @@
 import React, {Component} from 'react';
 
-
-import {Card, Button} from 'react-bootstrap';
+import { Card, Elevation } from "@blueprintjs/core";
+import {Button} from 'react-bootstrap';
 
 class Whatsappbot extends Component{
     render(){
         return(
-            <div>
-               <Card className="text-center">
-               {/* <Card.Header>Computer Vision</Card.Header> */}
-                <Card.Body>
-                    <Card.Title>Detecting Human and Car in Python</Card.Title>
-                    <Card.Text>
-                    <b>OpenCV</b> library is used for detecting. Many <b>Harcascade Classifiers</b> have been used for detecting various objects
-                    </Card.Text>
+            <div className="bp3-card .bp3-interactive">
+               <Card interactive={true} elevation={Elevation.TWO}>
+                   <center>
+               <h6>Detecting Human and Car in Python</h6>
+                    
+                    Real time Car and Standing Human detection which uses <b>Haarcascade Classifier</b> for detection. 
+                    
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/ComputerVision/tree/master/Jupyteranotebook" rel="noopener noreferrer" target="_blank">
@@ -25,8 +24,8 @@ class Whatsappbot extends Component{
                     </div>
                     
                     
-                    
-                </Card.Body>
+                    </center>
+                
                 </Card>
             </div>
         )
