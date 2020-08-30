@@ -14,12 +14,13 @@ class App extends Component {
       
      <div>
        
-         <PgHeader />
+         
          
       
             {/* <div style={{height: '300px', position: 'relative'}}> */}
-          <div>
+          {/* <div> */}
           <Layout fixedHeader>
+          <PgHeader />
               {/* <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
                   <Navigation>
                       <a href="#">Link</a>
@@ -48,7 +49,7 @@ class App extends Component {
               
           </Layout>
             
-      </div>
+      {/* </div> */}
       
       </div>
     );

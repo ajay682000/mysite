@@ -22,7 +22,7 @@ class PgHeader extends Component {
                                             <Link to="/" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>Home</Link>
                                         </Nav.Link>
                                         <Nav.Link>
-                                            <Link to="/about" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>About</Link> 
+                                            <Link to="/about" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>My Blog</Link> 
                                         </Nav.Link>
                                         <Nav.Link>
                                             <Link to="/contact" style={{color:'#ffffff', paddingRight:'30px', fontWeight:'bold'}}>Contact</Link>

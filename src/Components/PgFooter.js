@@ -26,7 +26,7 @@ class PgFooter extends Component {
                     // }}
                 >
                     <Link to="/" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>Home</Link>
-                    <Link to="/about" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>About</Link> 
+                    <Link to="/about" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>My Blog</Link> 
                     <Link to="/contact" style={{color:'#ffffff', paddingRight:'30px', fontWeight:'bold'}}>Contact</Link>
                     <Link to="/projects" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>Projects</Link>
                     <Link to="/resume" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>Resume</Link>
