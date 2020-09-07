@@ -236,7 +236,9 @@
 /* .trendyplanetbutton:hover {
   color: #ffffff;
 } */
-
+.hr {
+  border-top: 3px solid #833fb2;
+}
 
 /* Project */
 .project-grid {

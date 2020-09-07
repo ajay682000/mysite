@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Tabs, Tab} from 'react-mdl'
 
+
 import TamilKavithai from './Poems/TamilKavithai';
 import EnglishPoem from './Poems/EnglishPoem';
 
@@ -25,17 +26,18 @@ class Poems extends Component {
             )
         }
     }
-    
+   
 
     render() {
         return (
             <div className="demo-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab><b>தமிழ்</b> | (Tamil)</Tab>
-                    <Tab><b>English</b></Tab>
+                    <Tab><b className="demo-tabs-b">தமிழ் | (Tamil)</b></Tab>
+                    <Tab><b className="demo-tabs-b">English</b></Tab>
                 </Tabs>
                 <section>
                     <div className="content">
+                    
                         {this.toggleCategories()}
                     </div>
                 </section>

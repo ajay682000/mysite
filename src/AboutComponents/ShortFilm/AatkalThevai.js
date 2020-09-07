@@ -7,7 +7,7 @@ class AatkalThevai extends Component {
         return (
             <div>
                 
-                <Card> 
+                <Card className="card1"> 
                 <Card.Body>
                 <Card.Title><b>Aatkal Thevai</b></Card.Title>
                     <b>Language:</b> Tamil <br></br>

@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
 
+
 import Poems from '../AboutComponents/Poems';
 import Story from '../AboutComponents/Story';
 import ShortFilm from '../AboutComponents/ShortFIlm';
@@ -67,6 +68,7 @@ export default function ScrollableTabsButtonAuto() {
   return (
     <div className={classes.root}>
       <AppBar position="static" color="white">
+        
         <Tabs
           value={value}
           onChange={handleChange}
@@ -80,10 +82,12 @@ export default function ScrollableTabsButtonAuto() {
           <Tab label="Short Films" {...a11yProps(0)} />
           <Tab label="Poems | கவிதை" {...a11yProps(1)} />
           <Tab label="Writings" {...a11yProps(2)} />
+          
           {/* <Tab label="Item Five" {...a11yProps(4)} /> */}
           {/* <Tab label="Item Six" {...a11yProps(5)} /> */}
           {/* <Tab label="Item Seven" {...a11yProps(6)} /> */}
         </Tabs>
+        
       </AppBar>
       {/* <TabPanel value={value} index={0}><Aboutme /></TabPanel> */}
       <TabPanel value={value} index={0}><ShortFilm /></TabPanel>

@@ -7,7 +7,7 @@ import Logo from '../../Images/TrendyPlanet.jpg';
 class TrendyPlanet extends Component {
     render(){
         return(
-            <div>
+            <div className="card1">
                 <Media>
                 <img
                     width={64}

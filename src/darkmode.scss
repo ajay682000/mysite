@@ -1,0 +1,55 @@
+body{
+  .card1 {
+    transition: ease-in-out 0.5s;
+  }
+  .demo-tabs {
+    transition: ease-in-out 0.5s;
+  }
+  .shortfilm {
+    transition: ease-in-out 0.5s; 
+  }
+  .hr {
+    transition: ease-in-out 0.5s;
+  }
+  .shortfilm-b{
+    transition: ease-in-out 0.5s;
+  }
+  .demo-tabs-b{
+    transition: ease-in-out 0.5s;
+  }
+    
+  }
+
+.dark-mode {
+      .card1 {
+      background-color: #272829;
+      color: #fff;
+      transition: ease-in-out 1s;
+    }
+    .demo-tabs {
+      transition: ease-in-out 1s;
+      background-color: #272829;
+      color: #fff;
+    }
+    
+    .shortfilm {
+      transition: ease-in-out 1s;
+      background-color: #000;
+    }
+    .trendyplanetbutton{
+      transition: ease-in-out 1s;
+      color: #fff;
+    }
+    .hr {
+      transition: ease-in-out 1s;
+      border-top: 3px solid #e22947;
+    }
+    .shortfilm-b{
+      transition: ease-in-out 1s;
+      color: #fff;
+    }
+    .demo-tabs-b{
+      transition: ease-in-out 1s;
+      color: #fff;
+    }
+}

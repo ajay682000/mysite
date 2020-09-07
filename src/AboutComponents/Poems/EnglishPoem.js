@@ -8,7 +8,7 @@ class EnglishPoem extends Component {
         return(
             <div>
                 <div className="bp3-card .bp3-interactive">
-                <Card interactive={true} elevation={Elevation.TWO}>
+                <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                     <center>
                     <h5><b>Life </b></h5>
                     <p><Poem1 /></p>

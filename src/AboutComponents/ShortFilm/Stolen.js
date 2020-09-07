@@ -7,7 +7,7 @@ class Stolen extends Component {
         return (
             <div>
                 
-                <Card> 
+                <Card className="card1"> 
                 <Card.Body>
                 <Card.Title><b>Stolen</b></Card.Title>
                     <b>Language:</b> Tamil <br></br>

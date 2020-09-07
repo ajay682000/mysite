@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './darkmode.scss'
 import {Layout, Navigation, Header, Drawer, Content} from 'react-mdl';
 import {Navbar, Nav} from 'react-bootstrap';
 import {Link} from 'react-router-dom';

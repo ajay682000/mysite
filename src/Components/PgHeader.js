@@ -1,11 +1,18 @@
 import React, {Component} from 'react';
 
 import {Layout, Navigation, Header, Drawer, Content} from 'react-mdl';
+import { Code, Label, Switch } from "@blueprintjs/core";
+// import { CheckboxExample } from "./checkboxExample";
 import {Navbar, Nav} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 
 class PgHeader extends Component {
+    darkMode(){
+        // evt.preventDefault();
+        var element = document.body;
+        element.classList.toggle("dark-mode")
+        }
     render() {
         return (
             <div >
@@ -33,6 +40,9 @@ class PgHeader extends Component {
                                         <Nav.Link>
                                             <Link to="/resume" style={{color:'#ffffff',paddingRight:'750px', fontWeight:'bold'}}>Resume</Link>
                                         </Nav.Link>
+                                        
+                                        <Switch style ={{color: 'white'}}{...this.state}  innerLabelChecked="Dark Mode on" innerLabel="Dark Mode off" onChange={this.darkMode}/>
+                                                                                
                                     {/* <Link to="/" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>Home</Link>
                                     <Link to="/about" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>About</Link> 
                                     <Link to="/contact" style={{color:'#ffffff', paddingRight:'30px', fontWeight:'bold'}}>Contact</Link>

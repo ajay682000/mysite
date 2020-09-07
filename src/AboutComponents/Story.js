@@ -7,7 +7,7 @@ class Sports extends Component {
         return(
             <div>
                 <div className="bp3-card .bp3-interactive">
-                <Card interactive={true} elevation={Elevation.TWO}>
+                <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                     
                     <p><Story1 /></p>
                      
