@@ -7,11 +7,12 @@ import {OverlayTrigger, Tooltip, Button} from 'react-bootstrap';
 class PgFooter extends Component {
     render() {
         return(
-            <div>
-                <StickyFooter
+            <div className="footer">
+                <StickyFooter   
                     bottomThreshold={50}
-                    normalStyles={{
-                    backgroundColor: "#2e2f30",
+                    normalStyles={{       
+                        // 2e2f30
+                    // backgroundColor: "#2e2f30",
                     color: '#ffffff',
                     padding: "2rem",
                     position: "absolute",
@@ -25,29 +26,29 @@ class PgFooter extends Component {
                     // padding: "2rem"
                     // }}
                 >
-                    <Link to="/" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>Home</Link>
-                    <Link to="/about" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>My Blog</Link> 
-                    <Link to="/contact" style={{color:'#ffffff', paddingRight:'30px', fontWeight:'bold'}}>Contact</Link>
-                    <Link to="/projects" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>Projects</Link>
-                    <Link to="/resume" style={{color:'#ffffff',paddingRight:'30px', fontWeight:'bold'}}>Resume</Link>
+                    <Link to="/" className="pgheader1" >Home</Link>
+                    <Link to="/about" className="pgheader1" >My Blog</Link> 
+                    <Link to="/contact" className="pgheader1" >Contact</Link>
+                    <Link to="/projects" className="pgheader1" >Projects</Link>
+                    <Link to="/resume" className="pgheader1" >Resume</Link>
 
                     <br></br><br></br>
 
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/mysite" rel="noopener noreferrer" target="_blank">
-                    <Button variant="" style={{background:"transparent", color:"#ffffff"}}>
-                            <i className="fa fa-github-square" style={{color: "black",fontSize:"2em"}} aria-hidden="true" /> Source Code of this Website
+                    <Button variant="" className="footer-button">
+                            <i className="fa fa-github-square" aria-hidden="true" /> Source Code of this Website
                             </Button>
                         </a>
                        </div> 
                     
-                    Made with React
+                    <p className="footer-p">Made with react
                     <i className="fab fa-react" aria-hidden="true" /> 
                     <br></br>
                     Developed by Ajay Krishnan
                     <br></br>
-                    Follow me on <br></br>
+                    Follow me on</p> 
                     <div className="social-links">
                         
                         

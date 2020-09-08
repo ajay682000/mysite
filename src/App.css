@@ -6,16 +6,17 @@
 
 /* ui gradient */
 .header-color {
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 /* header, home page and landing page */
 .landing-grid {
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   /* Bring the image to center */
   text-align: center;
   
@@ -24,6 +25,16 @@
   justify-content: center;
  align-items: center;
  flex-wrap: wrap;
+}
+.pgheader1 {
+  color: #000;
+  padding-right: 30px;
+  font-weight: bold;
+}
+.pgheaderlast {
+  color: #000;
+  padding-right: 750px;
+  font-weight: bold;
 }
 
 .avathar-img {
@@ -34,8 +45,8 @@
 }
 
 .banner-text {
-  background-color:#000000;
-  border: 3px solid white;
+  background-color:#fff;
+  border: 3px solid #000;
   opacity: 0.8;
   width: 75%;
   margin: auto;
@@ -48,7 +59,7 @@
 .banner-text h2 {
   font-size: 44px;
   font-weight: bold;
-  color: #ffffff;
+  color: #000;
 }
 
 /* .banner-text h3 {
@@ -58,10 +69,10 @@
 } */
 
 .landing-page {
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   padding-bottom: 250px;
 
   /* width: 100%; */
@@ -71,7 +82,7 @@
 
 
 .banner-text hr {
-  border-top: 5px dotted #ffffff;
+  border-top: 5px dotted #000;
   width: 50%;
   margin: auto;
 }
@@ -86,7 +97,7 @@
 
 .banner-text1 {
   background-color: transparent;
-  border: 3px solid white;
+  border: 3px solid #000;
   opacity: 0.8;
   width: 75%;
   padding:10px;
@@ -95,24 +106,24 @@
 }
 
 .banner-text1 p {
-  color: #ffffff;
+  color: #000;
   font-size: 20px;
   font-family: 'Lobster', cursive
 }
 
-.social-links {
+/* .social-links {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
-  /* text-align: center; */
-  /* align-items: center; */
-  /* align-content: center; */
+  text-align: center;
+  align-items: center;
+  align-content: center;
   justify-content: space-around;
-}
+} */
 
 .social-links i {
-  color: white;
+  color: #000;
   font-size: 2em;
   padding: 8px;
   
@@ -127,10 +138,10 @@
 
 .contact-body {
   margin: auto;
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   /* position: relative; */
   /* width: 100%; */
   /* height: 100%; */
@@ -146,9 +157,10 @@
   height: fit-content;
   flex: auto;
   padding: 30px;
-  background: #3b3b3b;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  /* 3b3b3b  #665b5b*/ 
+  background: #edd3d3;
+  color: #000;
+  border: 2px solid #000;
   margin-bottom: 20px;
 }
 
@@ -178,6 +190,7 @@
   font-size: 20px;
   padding-right: 10px;
 }
+/* style={{fontSize: '20px', color: '#000000'}} */
 
 .right-side {
   padding-top: 100px;
@@ -194,15 +207,25 @@
 /* Resume Page */
 .resume-leftside {
   /* text-align: center; */
+  background: #27221f;
+  color: #fff;
   
 }
 .resume-rightside {
-  background: #27221f;
-  color: #ffffff;
+  background: #fff;
+  color: #000;
   padding: 2em;
 }
 
 .resumeright-leftside {
+
+}
+.resume-hr-left{
+  border-top: 3px solid #e22947;
+  width: 50%;
+}
+.resume-hr-right {
+  border-top: 3px solid #833fb2;
 
 }
 
@@ -219,10 +242,10 @@
  /* flex-wrap: wrap; */
  /* text-align: center; */
  /* padding: 10px; */
- background: #0F2027;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- /* color: #ffffff; */
+ background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* color: #ffffff; */
  
 }
 
@@ -246,10 +269,10 @@
   /* height: fit-content; */
   flex: auto;
   padding: 30px;
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #000000;
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   color: #000000;
   /* border: 2px solid #ffffff; */
   margin-bottom: 20px;
   
@@ -275,6 +298,7 @@
 
 .thecard:hover{
   transform: rotateY(180deg);
+  /* transform: translateY(0px); */
 }
 
 .frontside{
@@ -294,9 +318,15 @@
 }
 
 .backside{
-  backface-visibility: hidden;
-  overflow: hidden;
+  /* backface-visibility: hidden; */
+  /* overflow: hidden; */
   transform: rotateY(180deg);
+
+}
+.project-button{
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000
 }
 
 .project-links {
@@ -331,10 +361,74 @@
 }
 
 .fa-instagram:hover {
-  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
-    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-radial-gradiucation
+  2003 - 2004
+  
+  Vaima Vidyalaya
+  Studied Pre Kindergarten during the academic year 2003 - 2004
+  
+  2004 - 2005
+  
+  Kalaivani Vidyalaya
+  Studied Lower Kindergarten during the academic year 2003 - 2004
+  
+  2005 - 2018
+  
+  Sri Ramana Vidyalaya Montessori Matric Hr.Sec School
+  Completed rest of my schooling from June 2005 to April 2018 at Sri Ramana Vidyalaya
+  
+  2018 - 2022
+  
+  Chennai Institute of Technology
+  Pursuing my Bachelor of Engineering in the department of Computer Science and Engineering
+  
+  Skills
+  Python
+  
+  60
+  C
+  
+  50
+  C++
+  
+  50
+  Java
+  
+  40
+  Html/Css
+  
+  60
+  Javascript
+  
+  70
+  React
+  
+  60
+  React Native
+  
+  40
+  Android Studio
+  
+  40
+  php
+  
+  25
+  Laravel
+  
+  15
+  SQL
+  
+  30
+  Django
+  
+  5
+  Photoshop
+  
+  20
+  Video Editing
+  
+  75
+  Internshipsparent;
 }
 
 .fa-whatsapp:hover {
@@ -348,6 +442,10 @@
 .fa-react {
   color: #61DBFB;
   padding: 5px;
+}
+.fa-github-square {
+  color: #000;
+  font-size: 2em;
 }
 
 .construction {
@@ -370,6 +468,17 @@
   .fa-react {
     animation: fa-react-spin infinite 7s linear;
   }
+  .footer {
+    background-color: #a1a1a1;
+  }
+  .footer-button {
+    background: transparent;
+    color: #000;
+  }
+  .footer-p {
+    color: #000;
+  }
+  
 }
 
 @keyframes fa-react-spin {

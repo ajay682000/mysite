@@ -37,7 +37,7 @@ class Contact extends Component {
 
                        
                         <ListGroup>
-                            <ListGroup.Item variant="dark" style={{fontSize: '20px', color: '#000000'}}>
+                            <ListGroup.Item variant='dark' style={{fontSize: '20px', color: '#000000'}}>
                            
                                 
                                 <Contactno 

@@ -10,14 +10,14 @@ class VirtualPen extends Component{
         return(
             <div className="bp3-card .bp3-interactive">
                 
-               <Card interactive={true} elevation={Elevation.TWO}>
+               <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                    <center>
                       A computer vision project made with python. It detects a particular colour and with that colour it will write on the Screen
                     
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/VirtualPen" rel="noopener noreferrer" target="_blank">
-                    <Button variant="light">
+                    <Button variant="light" className="project-button">
                             <i className="fa fa-github-square" style={{fontSize:"2em"}} aria-hidden="true" /> Github Link
                             </Button>
                         </a>

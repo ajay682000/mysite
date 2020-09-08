@@ -19,8 +19,9 @@ class TamilKavithai extends Component {
     
         return(
             <div>
+        
                 <div className="bp3-card .bp3-interactive">
-                <Card className="card1 bp3-card .bp3-interactive" interactive={true} elevation={Elevation.TWO}>
+                <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                     <center>
                     <h5><b>அம்மாவின் பிறந்தநாள் </b></h5>
                     <p><Poem1 /></p>

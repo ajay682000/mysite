@@ -39,7 +39,7 @@ class Resumeright extends Component {
                                 schoolName = "Chennai Institute of Technology"
                                 schoolDesc = "Pursuing my Bachelor of Engineering in the department of Computer Science and Engineering"
                            />
-                           <hr style={{borderTop: '3px solid #e22947'}}></hr>
+                           <hr className=" resume-hr-right"></hr>
                             <h2> Skills</h2>
                             <ProgressSkills />
 
@@ -53,7 +53,7 @@ class Resumeright extends Component {
                                 provider="Gogosoon Pvt.Ltd"
                                 internshipdesc="Gained knowledge in React"
                             />    
-                            <hr style={{borderTop: '3px solid #e22947'}}></hr>        
+                            <hr className=" resume-hr-right"></hr>        
                             <h2>Industrial Visits</h2> 
                             <IV 
                             date={19}
@@ -61,10 +61,10 @@ class Resumeright extends Component {
                             year={2019}
                             companyname="BSNL"
                             />   
-                            <hr style={{borderTop: '3px solid #e22947'}}></hr>
+                            <hr className=" resume-hr-right"></hr>
                             <h2>Projects</h2>
                             <Projects />
-                            <hr style={{borderTop: '3px solid #e22947'}}></hr>
+                            <hr className=" resume-hr-right"></hr>
                             <h2>Personal Details</h2>
                             <PersonalDetails 
                                 Details="Father Name"
@@ -95,7 +95,7 @@ class Resumeright extends Component {
                                 detailans="Self Learning"
                             />
                             
-                            <hr style={{borderTop: '3px solid #e22947'}}></hr>
+                            <hr className=" resume-hr-right"></hr>
             </div>
         )
     }

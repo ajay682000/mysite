@@ -10,7 +10,7 @@ class FaceEmotion extends Component{
         return(
             <div className="bp3-card .bp3-interactive">
                 
-            <Card interactive={true} elevation={Elevation.TWO}>
+            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                 <center>
                     <h6>Face Emotion Detection in Python</h6>
                 
@@ -19,13 +19,13 @@ class FaceEmotion extends Component{
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/FaceEmotion" rel="noopener noreferrer" target="_blank">
-                    <Button variant="light">
+                    <Button variant="light" className="project-button">
                             <i className="fa fa-github-square" style={{fontSize:"2em"}} aria-hidden="true" /> Github Link
                             </Button>
                         </a>
-
+                        <br></br>
                         <a href="https://drive.google.com/drive/folders/1tN8VCmUrXbF5jM8ICcyW_BYFoqkjlNgE" rel="noopener noreferrer" target="_blank">
-                    <Button variant="light">
+                    <Button variant="light" className="project-button">
                             <i className="fa fa-file" style={{fontSize:"2em"}} aria-hidden="true" /> Dataset Link
                             </Button>
                         </a>

@@ -30,7 +30,7 @@ class Projectnewdesign extends Component {
                             <Row>           
                                 <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Whatsapp bot</h3>
                                                     </center>                                        
@@ -44,7 +44,7 @@ class Projectnewdesign extends Component {
                                         <br></br>
                                         <Col>
                                         <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Human and Car Detection</h3>
                                                     </center>                                        
@@ -58,7 +58,7 @@ class Projectnewdesign extends Component {
                                     <br></br>
                                     <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Face Detection</h3>
                                                     </center>                                        
@@ -75,7 +75,7 @@ class Projectnewdesign extends Component {
                             <Row> 
                                 <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Speech Recognition</h3>
                                                     </center>                                        
@@ -89,7 +89,7 @@ class Projectnewdesign extends Component {
                                         <br></br> 
                                         <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Face Recognition LBPH method</h3>
                                                     </center>                                        
@@ -103,7 +103,7 @@ class Projectnewdesign extends Component {
                                         <br></br>
                                         <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Face Recognition Transfer Learning Method</h3>
                                                     </center>                                        
@@ -120,7 +120,7 @@ class Projectnewdesign extends Component {
                             <Row>
                             <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Face Emotion Detection</h3>
                                                     </center>                                        
@@ -134,7 +134,7 @@ class Projectnewdesign extends Component {
                                         <br></br> 
                                         <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Finger Sign Gesture Recognition</h3>
                                                     </center>                                        
@@ -148,7 +148,7 @@ class Projectnewdesign extends Component {
                                         <br></br>
                                         <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Know About Yourself App</h3>
                                                     </center>                                        
@@ -165,7 +165,7 @@ class Projectnewdesign extends Component {
                             <Row>
                             <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Corona Virus Recognition</h3>
                                                     </center>                                        
@@ -179,7 +179,7 @@ class Projectnewdesign extends Component {
                                         <br></br> 
                                         <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Virtual Pen</h3>
                                                     </center>                                        
@@ -193,7 +193,7 @@ class Projectnewdesign extends Component {
                                         <br></br>
                                         <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>InvisibleCloth</h3>
                                                     </center>                                        
@@ -210,7 +210,7 @@ class Projectnewdesign extends Component {
                             <Row>                                
                                 <Col>
                                     <div className="thecard bp3-card .bp3-interactive">
-                                            <Card interactive={true} elevation={Elevation.TWO}>
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                                                 <div className="frontside">                                        
                                                     <center><h3>Virtual Drum</h3>
                                                     </center>                                        

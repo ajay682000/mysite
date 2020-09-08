@@ -8,7 +8,7 @@ class Whatsappbot extends Component{
         return(
             <div className="bp3-card .bp3-interactive">
                 
-               <Card interactive={true} elevation={Elevation.TWO}>
+               <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                
                <center>
                <h6>Whatsapp in Python</h6>
@@ -19,7 +19,7 @@ class Whatsappbot extends Component{
                     
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/whatsapp-bot" rel="noopener noreferrer" target="_blank">
-                    <Button variant="light">
+                    <Button variant="light" className="project-button">
                             <i className="fa fa-github-square" style={{fontSize:"2em"}} aria-hidden="true" /> Github Link
                             </Button>
                         </a>

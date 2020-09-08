@@ -10,7 +10,7 @@ class CoronaVirus extends Component{
         return(
             <div className="bp3-card .bp3-interactive">
                 
-               <Card interactive={true} elevation={Elevation.TWO}>
+               <Card className="card1" interactive={true} elevation={Elevation.TWO}>
                    <center>
                     <h6>Corona Virus Recognition using Chest X-Ray Images</h6>
                     
@@ -18,13 +18,13 @@ class CoronaVirus extends Component{
                 
                     <div className="project-links">
                     <a href="https://github.com/ajay682000/Corona-Virus-Rocognition-Chest-X-Ray" rel="noopener noreferrer" target="_blank">
-                    <Button variant="light">
+                    <Button variant="light" className = "project-button">
                             <i className="fa fa-github-square" style={{fontSize:"2em"}} aria-hidden="true" /> Github Link
                             </Button>
                         </a>
-
+                <br></br>
                         <a href="https://drive.google.com/drive/folders/1BZJ6SEKQKjCk9ibnyjg2qxQeW50gNUSV?usp=sharing" rel="noopener noreferrer" target="_blank">
-                    <Button variant="light">
+                    <Button variant="light" className = "project-button">
                             <i className="fa fa-file" style={{fontSize:"2em"}} aria-hidden="true" /> Dataset Link
                             </Button>
                         </a>
