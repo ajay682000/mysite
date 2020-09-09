@@ -360,74 +360,10 @@ background: linear-gradient(to left, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Fi
 }
 
 .fa-instagram:hover {
-  background: -webkit-radial-gradiucation
-  2003 - 2004
-  
-  Vaima Vidyalaya
-  Studied Pre Kindergarten during the academic year 2003 - 2004
-  
-  2004 - 2005
-  
-  Kalaivani Vidyalaya
-  Studied Lower Kindergarten during the academic year 2003 - 2004
-  
-  2005 - 2018
-  
-  Sri Ramana Vidyalaya Montessori Matric Hr.Sec School
-  Completed rest of my schooling from June 2005 to April 2018 at Sri Ramana Vidyalaya
-  
-  2018 - 2022
-  
-  Chennai Institute of Technology
-  Pursuing my Bachelor of Engineering in the department of Computer Science and Engineering
-  
-  Skills
-  Python
-  
-  60
-  C
-  
-  50
-  C++
-  
-  50
-  Java
-  
-  40
-  Html/Css
-  
-  60
-  Javascript
-  
-  70
-  React
-  
-  60
-  React Native
-  
-  40
-  Android Studio
-  
-  40
-  php
-  
-  25
-  Laravel
-  
-  15
-  SQL
-  
-  30
-  Django
-  
-  5
-  Photoshop
-  
-  20
-  Video Editing
-  
-  75
-  Internshipsparent;
+  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .fa-whatsapp:hover {
