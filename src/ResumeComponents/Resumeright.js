@@ -51,7 +51,7 @@ class Resumeright extends Component {
                                 startMonth="August"
                                 endMonth="December"
                                 provider="Gogosoon Pvt.Ltd"
-                                internshipdesc="Gained knowledge in React"
+                                internshipdesc="Frontend Web Developer in React"
                             />    
                             <hr className=" resume-hr-right"></hr>        
                             <h2>Industrial Visits</h2> 

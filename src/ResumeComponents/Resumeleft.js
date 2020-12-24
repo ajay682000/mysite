@@ -43,7 +43,9 @@ class Resumeleft extends Component {
                        <h5 style={{fontWeight: 'bold'}}>Email</h5>
                        <p>
                         {/* ethoorcompany@anthacompany.com */}
-                        ajaykrishnan682000.ak@gmail.com
+                        ajaykrishnan682000.ak@gmail.com <br></br>
+                        ajaykrishnan682000.ak@yahoo.com <br></br>
+                        ajaykrishnan682000.ak@outlook.com <br></br>
                        </p>
                        <hr className="resume-hr-left"></hr>
                        <h5 style={{fontWeight: 'bold'}}>Website</h5>

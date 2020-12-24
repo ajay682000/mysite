@@ -55,6 +55,16 @@ class Contact extends Component {
                                     email="ajaykrishnan682000.ak @gmail.com"
                                     
                                 />
+                                 <ContactEmail 
+                                    Email="Email:"
+                                    email="ajaykrishnan682000.ak @yahoo.com"
+                                    
+                                />
+                                 <ContactEmail 
+                                    Email="Email:"
+                                    email="ajaykrishnan682000.ak @outlook.com"
+                                    
+                                />
                             </ListGroup.Item>
                             {/* <ListGroup.Item variant="dark">Morbi leo risus</ListGroup.Item>
                             <ListGroup.Item variant="dark">Porta ac consectetur ac</ListGroup.Item>

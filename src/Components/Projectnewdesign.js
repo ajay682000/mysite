@@ -14,9 +14,14 @@ import VirtualPen from '../ProjectComponents/VirtualPen';
 import InvisibleCloth from '../ProjectComponents/InvisibleCloth';
 import FaceReco_Transfer from '../ProjectComponents/FaceReco_Transfer';
 import Drums_CV from '../ProjectComponents/Drums_CV';
+import EmployeeApp from '../ProjectComponents/EmployeeApp';
+import YoutubeClone from '../ProjectComponents/YoutubeClone';
+
+
 import Con2 from '../Images/Con2.png';
 import {Image, Accordion, Container, Row, Col, Button} from 'react-bootstrap'
 import {  Card, Elevation } from "@blueprintjs/core";
+
 
 
 
@@ -223,11 +228,31 @@ class Projectnewdesign extends Component {
                                         </Col>
                                         <br></br>
                                 <Col>
-                                
+                                        <div className="thecard bp3-card .bp3-interactive">
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
+                                                <div className="frontside">                                        
+                                                    <center><h3>Employee Details Storage App</h3>
+                                                    </center>                                        
+                                                </div>
+                                                <div className="backside">                                     
+                                                    <EmployeeApp />                                                                                                 
+                                                </div>
+                                            </Card>
+                                        </div>
                                 </Col>
                                 <br></br>
                                 <Col>
-                                
+                                        <div className="thecard bp3-card .bp3-interactive">
+                                            <Card className="card1" interactive={true} elevation={Elevation.TWO}>
+                                                <div className="frontside">                                        
+                                                    <center><h3>Youtube Clone</h3>
+                                                    </center>                                        
+                                                </div>
+                                                <div className="backside">                                     
+                                                    <YoutubeClone />                                                                                                 
+                                                </div>
+                                            </Card>
+                                        </div>
                                 </Col>
                                 <br></br>
                             </Row>
